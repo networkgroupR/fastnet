@@ -1,0 +1,21 @@
+Package: fastnet
+Type: Package
+Title: Large-Scale Social Network Analysis
+Version: 0.1.0
+Authors@R: c(
+  person("Nazrul", "Shaikh", email = "networkgroupr@gmail.com", role = c("aut","cre")),
+  person("Xu", "Dong", email = "x.dong3@umiami.edu", role = "aut"),
+  person("Luis", "Castro", email = "luiscastroabril@miami.edu", role = "aut"),
+  person("Christian", "Llano", email = "cxl985@miami.edu", role = "ctb")
+  )
+Description: We present an implementation of the algorithms required to simulate large-scale social networks and their most relevant metrics.
+License: GPL (>= 2)
+Imports: doParallel (>= 1.0.10),
+         parallel (>= 3.3.2),
+         foreach (>= 1.4.3),
+         igraph (>= 1.0.1)
+Depends: R (>= 3.3.2)
+Encoding: UTF-8
+LazyData: true
+BugReports: https://github.com/networkgroupR/fastnet/issues
+RoxygenNote: 5.0.1
