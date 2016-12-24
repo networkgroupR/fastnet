@@ -8,7 +8,7 @@ Authors@R: c(
   person("Luis", "Castro", email = "luiscastroabril@miami.edu", role = "aut"),
   person("Christian", "Llano", email = "cxl985@miami.edu", role = "ctb")
   )
-Description: We present an implementation of the algorithms required to simulate large-scale social networks and their most relevant metrics.
+Description: We present an implementation of the algorithms required to simulate large-scale social networks and retrieve their most relevant metrics.
 License: GPL (>= 2)
 Imports: doParallel (>= 1.0.10),
          parallel (>= 3.3.2),
