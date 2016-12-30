@@ -12,8 +12,8 @@
 
 draw.degdist.cum.log <- function(net){
 
-  cum.freq <- cbind(as.numeric(names(table(lengths(net)))),rev(cumsum(rev(unname(table(lengths(net))))))/sum(unname(table(lengths(net)))))
+  cum.freq <- cbind(as.numeric(names(table(lengths(net)))), rev(cumsum(rev(unname(table(lengths(net))))))/sum(unname(table(lengths(net)))))
 
-  graphics::plot(cum.freq ,log="xy",xlab="Degree",ylab="Freq")
+  graphics::plot(cum.freq , log="xy", xlab="Degree", ylab="Freq")
 
 }

@@ -11,7 +11,6 @@
 #' @export
 
 draw.degdist <- function(net){
-
-  graphics::plot(as.data.frame(table(lengths(net))),xlab="Degree")
+  graphics::plot(as.data.frame(table(lengths(net))), xlab="Degree")
 
 }

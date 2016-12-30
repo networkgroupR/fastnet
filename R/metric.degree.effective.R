@@ -12,7 +12,7 @@
 #' @export
 
 metric.degree.effective <- function(g, effective_rate=0.9) {
-  if (!is.list(g)) stop("Parameter 'g' must be a list",call. = FALSE)
-  stats::quantile(lengths(g),effective_rate)[[1]]
+  if (!is.list(g)) stop("Parameter 'g' must be a list", call. = FALSE)
+  stats::quantile(lengths(g), effective_rate)[[1]]
 }
 
