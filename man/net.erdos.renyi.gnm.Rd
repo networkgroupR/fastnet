@@ -29,10 +29,9 @@ When \code{d = TRUE} is a directed network.
 \dontrun{
 x <- net.erdos.renyi.gnm(1000, 100) }
 }
-\author{
-Xu Dong, Nazrul Shaikh.
-}
 \references{
 Erdos, P. and Renyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
 }
-
+\author{
+Xu Dong, Nazrul Shaikh.
+}

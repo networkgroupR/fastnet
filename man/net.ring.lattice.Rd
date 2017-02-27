@@ -24,10 +24,9 @@ The \emph{n} nodes are placed on a circle and each node is connected to the near
 \dontrun{
 x <- net.ring.lattice(1000, 10)}
 }
-\author{
-Xu Dong, Nazrul Shaikh
-}
 \references{
 Duncan J Watts and Steven H Strogatz: Collective dynamics of 'small world' networks, Nature 393, 440-442, 1998.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh
+}

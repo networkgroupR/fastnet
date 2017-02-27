@@ -25,4 +25,3 @@ metric.degree.sd(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

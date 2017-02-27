@@ -26,10 +26,9 @@ The formation of Watts-Strogatz network starts with a ring lattice with \emph{n}
 \dontrun{
 x <- net.watts.strogatz(1000, 10, 0.05)}
 }
-\author{
-Xu Dong, Nazrul Shaikh
-}
 \references{
 Duncan J. Watts and Steven H. Strogatz: Collective dynamics of 'small world' networks, Nature 393, 440-442, 1998.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh
+}

@@ -28,4 +28,3 @@ neighbors(x,2)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

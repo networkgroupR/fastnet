@@ -25,10 +25,9 @@ The mean eccentricities of all nodes in graph \emph{g}. Calculates the (estimate
 x <-  net.erdos.renyi.gnp(1000, 0.01)
 metric.distance.meanecc(x, 0.01)}
 }
-\author{
-Xu Dong, Nazrul Shaikh.
-}
 \references{
 West, Douglas Brent. Introduction to graph theory. Vol. 2. Upper Saddle River: Prentice Hall, 2001.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh.
+}

@@ -26,10 +26,9 @@ The Holme-Kim network model is a simple extension of B-A model. It adds an addit
 \dontrun{
 x <- net.holme.kim (1000, 20, 0.1)}
 }
-\author{
-Xu Dong, Nazrul Shaikh
-}
 \references{
 Holme, Petter, and Beom Jun Kim. "Growing scale-free networks with tunable clustering."Physical review E65, no. 2 (2002): 026107.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh
+}

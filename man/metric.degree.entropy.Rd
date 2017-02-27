@@ -23,10 +23,9 @@ Calculates the degree entropy of graph g, i.e. \deqn{Entropy(g) = - \sum_{i=1}^{
 x <-  net.erdos.renyi.gnp(1000, 0.01)
 metric.degree.entropy(x)}
 }
-\author{
-Xu Dong, Nazrul Shaikh.
-}
 \references{
 Anand, Kartik, and Ginestra Bianconi. "Entropy measures for networks: Toward an information theory of complex topologies." Physical Review E 80, no. 4 (2009): 045102.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh.
+}

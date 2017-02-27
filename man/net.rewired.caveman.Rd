@@ -26,10 +26,9 @@ The rewired caveman network is built on the corresponding regular caveman networ
 \dontrun{
 x <- net.rewired.caveman(50, 20, 0.0005)}
 }
-\author{
-Xu Dong, Nazrul Shaikh
-}
 \references{
 Watts, D. J. Networks, Dynamics, and the Small-World Phenomenon. Amer. J. Soc. 105, 493-527, 1999.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh
+}

@@ -28,10 +28,9 @@ Starting with \emph{m} nodes, the preferential attachment mechaism adds one node
 \dontrun{
 x <- net.barabasi.albert(1000, 20) # using default ncores }
 }
-\author{
-Luis Castro, Xu Dong, Nazrul Shaikh.
-}
 \references{
 Barabasi, A.- L. and Albert R. 1999. Emergence of scaling in random networks. Science, 286 509-512.
 }
-
+\author{
+Luis Castro, Xu Dong, Nazrul Shaikh.
+}

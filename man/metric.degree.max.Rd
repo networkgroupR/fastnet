@@ -25,4 +25,3 @@ metric.degree.max(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

@@ -26,10 +26,9 @@ The generated random network has a power-law degree distribution with an exponen
 \dontrun{
 x <- net.random.plc(1000, 10, 2)}
 }
-\author{
-Xu Dong, Nazrul Shaikh
-}
 \references{
 Newman, Mark EJ, Steven H. Strogatz, and Duncan J. Watts. "Random graphs with arbitrary degree distributions and their applications." Physical review E 64, no. 2 (2001): 026118.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh
+}

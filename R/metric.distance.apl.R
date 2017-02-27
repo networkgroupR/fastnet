@@ -21,8 +21,8 @@
 #' metric.distance.apl(x)
 #' ##Population APL
 #' metric.distance.apl(x, full.apl=TRUE)
-#'##Sampling at 99% level with an error of 10% using 5 cores
-#'metric.distance.apl(Network = x, probability=0.99, error=0.1, Cores=5)
+#' ##Sampling at 99% level with an error of 10% using 5 cores
+#' metric.distance.apl(Network = x, probability=0.99, error=0.1, Cores=5)
 #'}
 #'
 #' @import parallel
@@ -39,12 +39,14 @@
 metric.distance.apl <-  function(Network,probability=0.95,error=0.03,
                               Cores=detectCores(), full.apl=FALSE){
 
-  if (!is.list(Network)) stop("Parameter 'Network' must be a list",call. = FALSE)
-  if (probability>=1 | probability<=0) stop("Parameter 'probability' must be in (0,1)",call. = FALSE)
-  if (error>1 | error<0) stop("Parameter 'error' must be in [0,1]",call. = FALSE)
+  if (!is.list(Network)) stop("Parameter 'Network' must be a list", call. = FALSE)
+  if (probability>=1 | probability<=0) stop("Parameter 'probability' must be in (0,1)", call. = FALSE)
+  if (error>1 | error<0) stop("Parameter 'error' must be in [0,1]", call. = FALSE)
   if (Cores <= 0 | Cores > detectCores() | Cores%%1!=0) stop("Parameter 'Cores' must be a positive integer number greater than one and less available cores",call. = FALSE)
-  if (!is.logical(full.apl)) stop("Parameter 'full.ap' must be logical",call. = FALSE)
-    ##//Inner function SPL by edeges
+  if (!is.logical(full.apl)) stop("Parameter 'full.ap' must be logical", call. = FALSE)
+  if (0 %in% lengths(Network)) stop("The network object contains isolated nodes", call = FALSE)
+
+      ##//Inner function SPL by edeges
 
 
   Shortest.path.big <- function(matrix.edges,network){

@@ -26,4 +26,3 @@ metric.degree.median(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

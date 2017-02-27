@@ -26,4 +26,3 @@ summary(x.dist.deg)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

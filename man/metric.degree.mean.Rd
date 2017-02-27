@@ -27,4 +27,3 @@ metric.degree.mean(x)
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

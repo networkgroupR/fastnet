@@ -23,10 +23,9 @@ The local clustering coefficient of a node is the ratio of the triangles connect
 x <-  net.erdos.renyi.gnp(1000, 0.1)
 metric.cluster.median(x)}
 }
-\author{
-Xu Dong, Nazrul Shaikh.
-}
 \references{
 Wasserman, Stanley, and Katherine Faust. Social network analysis: Methods and applications. Vol. 8. Cambridge university press, 1994.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh.
+}

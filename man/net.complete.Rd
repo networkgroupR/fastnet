@@ -29,4 +29,3 @@ x <- net.complete(1000) #using ncores by default}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

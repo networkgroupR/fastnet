@@ -44,9 +44,6 @@ metric.distance.effdia(Network = x, probability=0.99, error=0.1, Cores=5)
 }
 
 }
-\author{
-Luis Castro, Nazrul Shaikh.
-}
 \references{
 Dijkstra EW. A note on two problems in connexion with
 graphs:(numerische mathematik, _1 (1959), p 269-271). 1959.
@@ -54,4 +51,6 @@ graphs:(numerische mathematik, _1 (1959), p 269-271). 1959.
 Castro L, Shaikh N. Estimation of Average Path Lengths of Social
 Networks via Random Node Pair Sampling. Department of Industrial Engineering, University of Miami. 2016.
 }
-
+\author{
+Luis Castro, Nazrul Shaikh.
+}

@@ -45,9 +45,6 @@ metric.distance.apl(Network = x, probability=0.99, error=0.1, Cores=5)
 }
 
 }
-\author{
-Luis Castro, Nazrul Shaikh.
-}
 \references{
 E. W. Dijkstra. 1959. A note on two problems in connexion with graphs. Numer. Math. 1, 1 (December 1959), 269-271.
 
@@ -55,4 +52,6 @@ Castro L, Shaikh N. Estimation of Average Path Lengths
 of Social Networks via Random Node Pair Sampling.
 Department of Industrial Engineering, University of Miami. 2016.
 }
-
+\author{
+Luis Castro, Nazrul Shaikh.
+}

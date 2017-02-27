@@ -26,4 +26,3 @@ preview.deg(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

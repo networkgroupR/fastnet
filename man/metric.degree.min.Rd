@@ -25,4 +25,3 @@ metric.degree.min(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

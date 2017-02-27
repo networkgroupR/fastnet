@@ -26,10 +26,9 @@ Is the median eccentricities of all nodes in graph \emph{g}.
 x <-  net.erdos.renyi.gnp(1000, 0.01)
 metric.distance.medianecc(x, 0.01)}
 }
-\author{
-Xu Dong, Nazrul Shaikh.
-}
 \references{
 West, Douglas Brent. Introduction to graph theory. Vol. 2. Upper Saddle River: Prentice hall, 2001.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh.
+}

@@ -23,10 +23,9 @@ The global clustering coefficient measures the ratio of (closed) triples versus 
 x <-  net.erdos.renyi.gnp(1000, 0.01)
 metric.cluster.global(x)}
 }
-\author{
-Xu Dong, Nazrul Shaikh.
-}
 \references{
 Wasserman, Stanley, and Katherine Faust. Social network analysis: Methods and applications. Vol. 8. Cambridge university press, 1994.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh.
+}

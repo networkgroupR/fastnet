@@ -27,4 +27,3 @@ metric.degree.effective(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

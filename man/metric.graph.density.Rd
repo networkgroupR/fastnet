@@ -26,4 +26,3 @@ metric.graph.density(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

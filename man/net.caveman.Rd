@@ -28,10 +28,9 @@ clique such that all \emph{m} cliques form a single circle (Watts 1999). The tot
 \dontrun{
 x <- net.caveman(50, 20) #using ncores by default }
 }
-\author{
-Xu Dong, Nazrul Shaikh.
-}
 \references{
 Watts, D. J. Networks, Dynamics, and the Small-World Phenomenon. Amer. J. Soc. 105, 493-527, 1999.
 }
-
+\author{
+Xu Dong, Nazrul Shaikh.
+}

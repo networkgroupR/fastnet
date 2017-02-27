@@ -20,6 +20,7 @@
 metric.distance.meanecc <- function(g, p){
   if (!is.list(g)) stop("Parameter 'g' must be a list", call. = FALSE)
   if (p>=1 | p<=0) stop("Parameter 'p' must be in (0,1)", call. = FALSE)
+  if (0 %in% lengths(g)) stop("The network object contains isolated nodes", call = FALSE)
 
   g <- simplify(graph_from_adj_list(g, duplicate = FALSE))
 

@@ -26,4 +26,3 @@ draw.degdist(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-

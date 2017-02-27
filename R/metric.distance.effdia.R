@@ -32,13 +32,14 @@
 #' @references Castro L, Shaikh N. Estimation of Average Path Lengths of Social
 #' Networks via Random Node Pair Sampling. Department of Industrial Engineering, University of Miami. 2016.
 
-metric.distance.effdia <-  function(Network,probability=0.95,error=0.03,effective_rate=0.9,
+metric.distance.effdia <-  function(Network,probability=0.95, error=0.03, effective_rate=0.9,
                                       Cores=detectCores(), full=TRUE){
-  if (!is.list(Network)) stop("Parameter 'Network' must be a list",call. = FALSE)
-  if (probability>=1 | probability<=0) stop("Parameter 'probability' must be in (0,1)",call. = FALSE)
-  if (error>=1 | error<=0) stop("Parameter 'error' must be in (0,1)",call. = FALSE)
-  if (Cores <= 0 | Cores > detectCores() | Cores%%1!=0) stop("Parameter 'Cores' must be a positive integer greater than one and less than available cores",call. = FALSE)
-  if (!is.logical(full)) stop("Parameter 'full' must be logical",call. = FALSE)
+  if (!is.list(Network)) stop("Parameter 'Network' must be a list", call. = FALSE)
+  if (probability>=1 | probability<=0) stop("Parameter 'probability' must be in (0,1)", call. = FALSE)
+  if (error>=1 | error<=0) stop("Parameter 'error' must be in (0,1)", call. = FALSE)
+  if (Cores <= 0 | Cores > detectCores() | Cores%%1!=0) stop("Parameter 'Cores' must be a positive integer greater than one and less than available cores", call. = FALSE)
+  if (!is.logical(full)) stop("Parameter 'full' must be logical", call. = FALSE)
+  if (0 %in% lengths(Network)) stop("The network object contains isolated nodes", call = FALSE)
 
   ##//Inner function SPL by edeges
 

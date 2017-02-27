@@ -26,4 +26,3 @@ histo.dist(x)}
 \author{
 Xu Dong, Nazrul Shaikh.
 }
-
