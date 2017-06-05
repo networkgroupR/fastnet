@@ -11,6 +11,9 @@
 #' @export
 
 draw.degdist <- function(net){
-  graphics::plot(as.data.frame(table(lengths(net))), xlab="Degree")
+
+  freq <- as.data.frame(table(lengths(net)))
+  freq$Freq <- freq$Freq/length(net)
+  graphics::plot(freq, xlab="Degree", ylab = "Prob")
 
 }

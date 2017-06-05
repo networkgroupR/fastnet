@@ -1,7 +1,7 @@
 
-#' Barabasi-Albert Scale-free Graph
+#' Barab\'{a}si-Albert Scale-free Graph
 #'
-#' @description Simulate a scale-free network using a preferential attachment mechanism (Barabasi and Albert, 1999)
+#' @description Simulate a scale-free network using a preferential attachment mechanism (Bar\'{a}basi and Albert, 1999)
 #' @param n Number of nodes of the network.
 #' @param m Number of nodes to which a new node connects at each iteration.
 #' @param ncores Number of cores, by default \code{detectCores()} from \code{parallel}.
@@ -14,7 +14,7 @@
 #' @import parallel
 #' @import doParallel
 #' @export
-#' @references Barabasi, A.- L. and Albert R. 1999. Emergence of scaling in random networks. Science, 286 509-512.
+#' @references Barab\'{a}si, A.- L. and Albert R. 1999. Emergence of scaling in random networks. Science, 286 509-512.
 
 
 net.barabasi.albert <- function(n, m, ncores = detectCores(), d = FALSE ){
@@ -68,7 +68,7 @@ net.barabasi.albert <- function(n, m, ncores = detectCores(), d = FALSE ){
           Net1[new.edge] <- Net2
           Net1[i] <- list(sort(new.edge))
           n.init <- c(n.init, i)
-          }
+        }
 
         Net1
       }
@@ -94,20 +94,26 @@ net.barabasi.albert <- function(n, m, ncores = detectCores(), d = FALSE ){
 
         }
 
+        if (n < ncores) {
+
+          ncores = n
+
+        } else { }
+
         cl <- makeCluster(ncores) ##Make cluster of cores
         on.exit(stopCluster(cl))
         registerDoParallel(cl, cores = ncores)
 
-        reverse.connect = function(i){
+        reverse.connect <- function(i){
 
-          reverse.neilist =list()
-          reverse.neilist[n] = list(NULL)
+          reverse.neilist <- list()
+          reverse.neilist[n] <- list(NULL)
 
           for (j in seq(i,n,ncores)  ){
 
             for (k in neilist[[j]]){
 
-              reverse.neilist[[k]] = c(reverse.neilist[[k]],j)
+              reverse.neilist[[k]] <- c(reverse.neilist[[k]],j)
 
             }
 
@@ -130,9 +136,3 @@ net.barabasi.albert <- function(n, m, ncores = detectCores(), d = FALSE ){
     }
   }
 }
-
-
-
-
-
-

@@ -12,7 +12,8 @@
 
 draw.degdist.log <- function(net){
 
-  graphics::plot(cbind(names(table(lengths(net))), as.numeric(table(lengths(net)))), log="xy", xlab="Degree", ylab="Freq")
+  prob <- cbind(names(table(lengths(net))), as.numeric(table(lengths(net)))/length(net))
 
+  graphics::plot(prob, log="xy", xlab="Degree", ylab="Prob")
 }
 

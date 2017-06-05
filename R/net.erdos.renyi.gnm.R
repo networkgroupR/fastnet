@@ -1,6 +1,6 @@
-#' Directed / Undirected Erdos-Renyi \eqn{G(n,m)} network using a fix edge size.
+#' Directed / Undirected Erd\"{o}s-R\'{e}nyi \eqn{G(n,m)} network using a fix edge size.
 #'
-#' @description Simulate a random network with \emph{n} nodes and \emph{m} edges, according to Erdos and Renyi (1959).
+#' @description Simulate a random network with \emph{n} nodes and \emph{m} edges, according to Erd\"{o}s and R\'{e}nyi (1959).
 #' @param n Number of nodes of the network.
 #' @param m Number of edges of the network.
 #' @param ncores Number of cores, by default \code{detectCores()} from \code{parallel}.
@@ -15,7 +15,7 @@
 #' @import doParallel
 #' @import foreach
 #' @export
-#' @references Erdos, P. and Renyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
+#' @references Erd\"{o}s, P. and R\'{e}nyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
 
 
 net.erdos.renyi.gnm <- function(n, m, ncores = detectCores(), d = TRUE){

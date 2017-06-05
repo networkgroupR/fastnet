@@ -11,6 +11,7 @@
 #' @export
 
 histo.dist <- function(g) {
-  graphics::hist(lengths(g),breaks = 1000, main = "Histogram of degrees")
+
+  graphics::hist(lengths(g),breaks = 1000, xlab = "Degree")
 
 }

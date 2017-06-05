@@ -2,7 +2,7 @@
 % Please edit documentation in R/net.erdos.renyi.gnm.R
 \name{net.erdos.renyi.gnm}
 \alias{net.erdos.renyi.gnm}
-\title{Directed / Undirected Erdos-Renyi \eqn{G(n,m)} network using a fix edge size.}
+\title{Directed / Undirected Erd\"{o}s-R\'{e}nyi \eqn{G(n,m)} network using a fix edge size.}
 \usage{
 net.erdos.renyi.gnm(n, m, ncores = detectCores(), d = TRUE)
 }
@@ -19,7 +19,7 @@ net.erdos.renyi.gnm(n, m, ncores = detectCores(), d = TRUE)
 A list containing the nodes of the network and their respective neighbors.
 }
 \description{
-Simulate a random network with \emph{n} nodes and \emph{m} edges, according to Erdos and Renyi (1959).
+Simulate a random network with \emph{n} nodes and \emph{m} edges, according to Erd\"{o}s and R\'{e}nyi (1959).
 }
 \details{
 In this (simplest) random network, \emph{m} edges are formed at random among \emph{n} nodes.
@@ -30,7 +30,7 @@ When \code{d = TRUE} is a directed network.
 x <- net.erdos.renyi.gnm(1000, 100) }
 }
 \references{
-Erdos, P. and Renyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
+Erd\"{o}s, P. and R\'{e}nyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
 }
 \author{
 Xu Dong, Nazrul Shaikh.

@@ -12,6 +12,6 @@
 
 draw.degdist.cum <- function(net){
 
- graphics::plot(stats::ecdf(lengths(net)),xlab="Degree",ylab="Freq",main="")
+  graphics::plot(stats::ecdf(lengths(net)),xlab="Degree",ylab="Prob",main="")
 
 }

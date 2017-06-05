@@ -2,7 +2,7 @@
 % Please edit documentation in R/net.barabasi.albert.R
 \name{net.barabasi.albert}
 \alias{net.barabasi.albert}
-\title{Barabasi-Albert Scale-free Graph}
+\title{Barab\'{a}si-Albert Scale-free Graph}
 \usage{
 net.barabasi.albert(n, m, ncores = detectCores(), d = FALSE)
 }
@@ -19,7 +19,7 @@ net.barabasi.albert(n, m, ncores = detectCores(), d = FALSE)
 A list containing the nodes of the network and their respective neighbors.
 }
 \description{
-Simulate a scale-free network using a preferential attachment mechanism (Barabasi and Albert, 1999)
+Simulate a scale-free network using a preferential attachment mechanism (Bar\'{a}basi and Albert, 1999)
 }
 \details{
 Starting with \emph{m} nodes, the preferential attachment mechaism adds one node and \emph{m} edges in each step. The edges will be placed with one end on the newly-added node and the other end on the existing nodes, according to probabilities that associate with their current degrees.
@@ -29,7 +29,7 @@ Starting with \emph{m} nodes, the preferential attachment mechaism adds one node
 x <- net.barabasi.albert(1000, 20) # using default ncores }
 }
 \references{
-Barabasi, A.- L. and Albert R. 1999. Emergence of scaling in random networks. Science, 286 509-512.
+Barab\'{a}si, A.- L. and Albert R. 1999. Emergence of scaling in random networks. Science, 286 509-512.
 }
 \author{
 Luis Castro, Xu Dong, Nazrul Shaikh.
