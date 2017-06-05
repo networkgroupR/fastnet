@@ -1,7 +1,7 @@
 Package: fastnet
 Type: Package
 Title: Large-Scale Social Network Analysis
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: c(
   person("Nazrul", "Shaikh", email = "networkgroupr@gmail.com", role = c("aut","cre")),
   person("Xu", "Dong", email = "x.dong3@umiami.edu", role = "aut"),
