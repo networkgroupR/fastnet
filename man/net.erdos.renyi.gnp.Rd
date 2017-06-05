@@ -2,7 +2,7 @@
 % Please edit documentation in R/net.erdos.renyi.gnp.R
 \name{net.erdos.renyi.gnp}
 \alias{net.erdos.renyi.gnp}
-\title{Directed / Undirected Erd\"{o}s-R\'{e}nyi \eqn{G(n,p)} network}
+\title{Directed / Undirected Erdos-Renyi \eqn{G(n,p)} network}
 \usage{
 net.erdos.renyi.gnp(n, p, ncores = detectCores(), d = TRUE)
 }
@@ -19,7 +19,7 @@ net.erdos.renyi.gnp(n, p, ncores = detectCores(), d = TRUE)
 A list containing the nodes of the network and their respective neighbors.
 }
 \description{
-Simulate a random network with \emph{n} nodes and a link connecting probability of \emph{p}, according to Ed\"{o}s and R\'{e}nyi (1959).
+Simulate a random network with \emph{n} nodes and a link connecting probability of \emph{p}, according to Edos and Renyi (1959).
 }
 \details{
 In this (simplest) random network, each edge is formed at random with a constant probability.
@@ -30,7 +30,7 @@ When \code{d = TRUE} is a directed network.
 x <- net.erdos.renyi.gnp(1000, 0.01)}
 }
 \references{
-Erd\"{o}s, P. and R\'{e}nyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
+Erdos, P. and Renyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
 }
 \author{
 Luis Castro, Xu Dong, Nazrul Shaikh.

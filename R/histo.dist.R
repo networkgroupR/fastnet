@@ -12,6 +12,6 @@
 
 histo.dist <- function(g) {
 
-  graphics::hist(lengths(g),breaks = 1000, xlab = "Degree")
+  graphics::hist(lengths(g),breaks = 1000, xlab = "Degree", main = NULL)
 
 }

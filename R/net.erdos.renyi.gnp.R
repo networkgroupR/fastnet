@@ -1,6 +1,6 @@
-#' Directed / Undirected Erd\"{o}s-R\'{e}nyi \eqn{G(n,p)} network
+#' Directed / Undirected Erdos-Renyi \eqn{G(n,p)} network
 #'
-#' @description Simulate a random network with \emph{n} nodes and a link connecting probability of \emph{p}, according to Ed\"{o}s and R\'{e}nyi (1959).
+#' @description Simulate a random network with \emph{n} nodes and a link connecting probability of \emph{p}, according to Edos and Renyi (1959).
 #' @param n Number of nodes of the network.
 #' @param p Connecting probability.
 #' @param ncores Number of cores, by default \code{detectCores()} from \code{parallel}.
@@ -15,7 +15,7 @@
 #' @import doParallel
 #' @import foreach
 #' @export
-#' @references Erd\"{o}s, P. and R\'{e}nyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
+#' @references Erdos, P. and Renyi, A., On random graphs, Publicationes Mathematicae 6, 290-297 (1959).
 
 
 net.erdos.renyi.gnp <- function(n, p, ncores = detectCores(), d = TRUE){

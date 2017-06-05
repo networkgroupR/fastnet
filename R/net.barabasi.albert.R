@@ -1,7 +1,7 @@
 
-#' Barab\'{a}si-Albert Scale-free Graph
+#' Barabasi-Albert Scale-free Graph
 #'
-#' @description Simulate a scale-free network using a preferential attachment mechanism (Bar\'{a}basi and Albert, 1999)
+#' @description Simulate a scale-free network using a preferential attachment mechanism (Barabasi and Albert, 1999)
 #' @param n Number of nodes of the network.
 #' @param m Number of nodes to which a new node connects at each iteration.
 #' @param ncores Number of cores, by default \code{detectCores()} from \code{parallel}.
@@ -14,7 +14,7 @@
 #' @import parallel
 #' @import doParallel
 #' @export
-#' @references Barab\'{a}si, A.- L. and Albert R. 1999. Emergence of scaling in random networks. Science, 286 509-512.
+#' @references Barabasi, A.- L. and Albert R. 1999. Emergence of scaling in random networks. Science, 286 509-512.
 
 
 net.barabasi.albert <- function(n, m, ncores = detectCores(), d = FALSE ){
